@@ -12,6 +12,14 @@ h2 {
     font-size: 35px;
 }
 
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
 .online {
     text-align: center;
 }
@@ -30,13 +38,14 @@ h2 {
     height: auto;
 }
 
-.img,
+.contatti-img,
 .text {
     text-align: center;
 }
 
-.img img {
-    width: 50%;
+.contatti-img img {
+    width: 200px;
+    height: auto;
 }
 
 .text h3 {
@@ -62,4 +71,69 @@ h2 {
 
 .why-text p {
     padding-bottom: 20px;
+}
+
+/* MediaQuery */
+
+@media screen and (max-width: 767px) {
+
+    .title {
+        line-height: 50px;
+        background-color: sandybrown;
+        padding: 10px 0;
+    }
+
+    #white-title {
+        background-color: white;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .online {
+        background-color: sandybrown;
+        padding: 0;
+    }
+    
+    .online h3 {
+        padding-bottom: 20px;
+    }
+    
+    .online img {
+        width: 120px;
+        height: auto;
+    }
+    
+    .online #screen {
+        width: 180px;
+        height: auto;
+    }
+    
+    .contatti-img,
+    .text {
+        padding: 5px;
+    }
+
+    .contatti-img img {
+        width: 150px;
+    }
+
+    .why {
+        background-color: sandybrown;
+    }
+
+    .why-image img {
+        width: 130px;
+        background-color: #418bca;
+        color: white;
+        border-radius: 50%;
+        padding: 30px;
+        margin: 20px 0;
+    }
+    
 }
