@@ -129,11 +129,7 @@ p {
 
     .why-image img {
         width: 130px;
-        background-color: #418bca;
-        color: white;
         border-radius: 50%;
-        padding: 30px;
-        margin: 20px 0;
     }
     
 }
