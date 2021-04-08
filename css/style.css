@@ -1,0 +1,17 @@
+.container {
+    height: 100%;
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+[class*="col-"] {
+    height: 100%;
+    min-height: 100px;
+    /* background-color: darkorchid; */
+    border: 1px solid black; */
+}
+
+
+.online img {
+    width: 100%;
+}
