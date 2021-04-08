@@ -39,7 +39,7 @@ p {
 }
 
 .contatti-img,
-.text {
+.contatti-text {
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ p {
     height: auto;
 }
 
-.text h3 {
+.contatti-text h3 {
     padding: 20px 0;
 }
 
@@ -115,7 +115,7 @@ p {
     }
     
     .contatti-img,
-    .text {
+    .contatti-text {
         padding: 5px;
     }
 
@@ -132,4 +132,34 @@ p {
         border-radius: 50%;
     }
     
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .title {
+        line-height: 30px;
+        background-color: lightyellow;
+        padding: 20px 0;
+    }
+
+    .online {
+        background-color: lightyellow;
+        padding: 0;
+    }
+
+    #white-title {
+        background-color: white;
+    }
+
+    .why {
+        background-color: lightyellow;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+    
+    .contatti-text {
+        padding-bottom: 30px;
+    }
 }
